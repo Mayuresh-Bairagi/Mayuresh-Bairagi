@@ -20,11 +20,7 @@
 ---
 
 <p align="center">
-  <img src="./assets/terminal-main.svg" alt="terminal: whoami, focus, thinking, metrics">
-</p>
-
-<p align="center">
-  <img src="./assets/terminal-projects.svg" alt="terminal: project statuses">
+  <img src="./assets/terminal-animated.svg" alt="animated terminal session">
 </p>
 
 <p align="center">
@@ -37,14 +33,6 @@
 
 <p align="center">
   <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=Mayuresh-Bairagi&theme=tokyonight&hide_border=true&bg_color=0d1117&layout=compact">
-</p>
-
-<p align="center">
-  <img src="./assets/terminal-contact.svg" alt="terminal: contact info">
-</p>
-
-<p align="center">
-  <img src="./assets/terminal-status.svg" alt="terminal: system status">
 </p>
 
 <p align="center">
