@@ -49,6 +49,3 @@ Docker, Git
 </table>
 
 ---
-
-## 📊 Stats
-![Stats](https://github-readme-stats.vercel.app/api?username=Mayuresh-Bairagi&show_icons=true)
