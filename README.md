@@ -1,51 +1,23 @@
-# Mayuresh Bairagi 👋  
-### 🧠 AI Systems | GenAI | RAG | MCP
+<!-- HEADER ANIMATION -->
+<p align="center">
+  <img src="https://readme-typing-svg.herokuapp.com?size=28&duration=3000&color=00F7FF&center=true&vCenter=true&width=600&lines=Mayuresh+Bairagi;AI+Systems+Engineer;RAG+%7C+MCP+%7C+GenAI" />
+</p>
 
 ---
 
-<table>
-<tr>
-<td width="50%">
+## 🧠 AI Systems | GenAI | RAG | MCP
 
-## 🚀 Highlights
-- 12+ months AI & Backend experience :contentReference[oaicite:0]{index=0}  
-- Built AML AI Assistant (**85% accuracy**)  
-- MCP agents (**+30% efficiency**)  
-- FastAPI systems (**500+ daily users**) :contentReference[oaicite:1]{index=1}  
+<p align="center">
+  <img src="https://img.shields.io/badge/AI-Systems-black?style=for-the-badge"/>
+  <img src="https://img.shields.io/badge/RAG-Pipelines-blue?style=for-the-badge"/>
+  <img src="https://img.shields.io/badge/MCP-Architecture-purple?style=for-the-badge"/>
+</p>
 
 ---
 
-## 🔥 Projects
-- 🧠 RAG AML Assistant  
-- 🤖 MCP Agent System  
-- ⚙️ AutoML Framework  
+## 🚀 Overview
 
-</td>
-
-<td width="50%">
-
-## 🧠 Skills
-- RAG, Agentic AI, MCP  
-- LLM APIs (OpenAI, Gemini)  
-- FastAPI, REST APIs  
-- Vector DBs (ChromaDB)  
-
----
-
-## ⚙️ Tech
-Python, TensorFlow, LangChain  
-Pandas, SQL, Power BI  
-Docker, Git  
-
----
-
-## 📫 Contact
-📧 mayureshbairagi304@gmail.com  
-🔗 LinkedIn  
-💻 GitHub  
-
-</td>
-</tr>
-</table>
-
----
+```diff
++ Building production-ready AI systems
++ Focus: RAG, Agentic AI, MCP
++ Backend: FastAPI | LLM APIs | Vector DBs
