@@ -1,50 +1,43 @@
-<!-- Animated Header -->
+<!-- HERO SECTION -->
 <p align="center">
-  <img src="https://readme-typing-svg.herokuapp.com?size=30&duration=2500&color=00F7FF&center=true&vCenter=true&width=700&lines=Mayuresh+Bairagi;AI+Systems+Engineer;Building+RAG+%7C+MCP+%7C+GenAI+Systems" />
+  <img src="https://readme-typing-svg.herokuapp.com?size=32&duration=2500&color=00F7FF&center=true&vCenter=true&width=800&lines=Mayuresh+Bairagi;Building+AI+Systems;RAG+%7C+MCP+%7C+GenAI" />
+</p>
+
+<p align="center">
+  <b>AI Systems Engineer • Turning data into intelligent systems</b>
+</p>
+
+<p align="center">
+  <img src="https://img.shields.io/badge/RAG-blue"/>
+  <img src="https://img.shields.io/badge/MCP-purple"/>
+  <img src="https://img.shields.io/badge/FastAPI-green"/>
+  <img src="https://img.shields.io/badge/GenAI-black"/>
 </p>
 
 ---
 
-## 🧠 AI Systems | GenAI | RAG | MCP
-
-<p align="center">
-  <img src="https://img.shields.io/badge/AI-black?style=flat-square"/>
-  <img src="https://img.shields.io/badge/RAG-blue?style=flat-square"/>
-  <img src="https://img.shields.io/badge/MCP-purple?style=flat-square"/>
-  <img src="https://img.shields.io/badge/FastAPI-green?style=flat-square"/>
-</p>
-
----
-
-### 🚀 What I Build
-- Production-ready **AI systems**
-- **RAG pipelines** with real-world data  
-- **Agentic workflows (LangGraph + tools)**  
-- Scalable backends using **FastAPI + LLM APIs**
+### 🧠 What I Do
+I design and build AI systems that actually work in production —  
+from **retrieval pipelines** to **agent-based architectures**.
 
 ---
 
 ### ⚡ Impact
-- 12+ months AI + Backend  
-- 85% retrieval accuracy (RAG system)  
-- 500+ users/day systems  
-- +30% workflow efficiency via MCP  
+→ 85% accuracy in real-world RAG system  
+→ 500+ users/day backend systems  
+→ +30% efficiency using MCP-based agents  
 
 ---
 
-### 🔥 Selected Work
-- 🧠 **RAG AML Assistant** → compliance AI system  
-- 🤖 **MCP Agent System** → multi-agent automation  
-- ⚙️ **AutoML Framework** → ML pipeline automation  
+### 🔥 Work That Matters
+→ RAG AML Assistant (compliance AI)  
+→ MCP Agent System (multi-agent automation)  
+→ AutoML Framework (end-to-end ML pipeline)  
 
 ---
 
-### 🧩 Tech
-<p>
-  <img src="https://skillicons.dev/icons?i=python,fastapi,tensorflow,docker,mysql,git" />
-</p>
-
-`LangChain` • `LangGraph` • `OpenAI` • `Gemini` • `ChromaDB`
+### 🧩 Stack
+Python • FastAPI • LangChain • LangGraph • OpenAI • Gemini • ChromaDB  
 
 ---
 
@@ -55,6 +48,6 @@
 
 ---
 
-### 📫 Connect
-- 📧 mayureshbairagi304@gmail.com  
-- 🔗 https://linkedin.com/in/mayuresh-bairagi
+### 📫 Reach Me
+mayureshbairagi304@gmail.com  
+https://linkedin.com/in/mayuresh-bairagi
