@@ -1,0 +1,32 @@
+<svg width="650" height="220" viewBox="0 0 650 220" xmlns="http://www.w3.org/2000/svg">
+  <!-- Window background -->
+  <rect width="650" height="220" rx="12" fill="#1a1b27" stroke="#30363d" stroke-width="1"/>
+  <!-- Title bar -->
+  <rect width="650" height="38" rx="12" fill="#16213e"/>
+  <rect y="26" width="650" height="12" fill="#16213e"/>
+  <!-- Window dots -->
+  <circle cx="22" cy="19" r="6" fill="#f7768e"/>
+  <circle cx="42" cy="19" r="6" fill="#e0af68"/>
+  <circle cx="62" cy="19" r="6" fill="#9ece6a"/>
+  <!-- Title text -->
+  <text x="325" y="25" text-anchor="middle" font-family="'Courier New',Courier,monospace" font-size="12" fill="#565f89">bash &#x2014; mayuresh@ai:~/status</text>
+
+  <!-- > system_status -->
+  <text x="24" y="62" font-family="'Courier New',Courier,monospace" font-size="13" fill="#7dcfff">&gt; system_status</text>
+
+  <!-- status lines with SVG circles as indicators -->
+  <circle cx="32" cy="80" r="5" fill="#9ece6a"/>
+  <text x="46" y="84" font-family="'Courier New',Courier,monospace" font-size="13" fill="#c0caf5">all systems operational</text>
+
+  <circle cx="32" cy="102" r="5" fill="#9ece6a"/>
+  <text x="46" y="106" font-family="'Courier New',Courier,monospace" font-size="13"><tspan fill="#c0caf5">mcp_agent: </tspan><tspan fill="#9ece6a">running</tspan></text>
+
+  <circle cx="32" cy="124" r="5" fill="#9ece6a"/>
+  <text x="46" y="128" font-family="'Courier New',Courier,monospace" font-size="13"><tspan fill="#c0caf5">rag_pipeline: </tspan><tspan fill="#9ece6a">active</tspan></text>
+
+  <circle cx="32" cy="146" r="5" fill="#9ece6a"/>
+  <text x="46" y="150" font-family="'Courier New',Courier,monospace" font-size="13"><tspan fill="#c0caf5">api_endpoints: </tspan><tspan fill="#9ece6a">healthy</tspan></text>
+
+  <!-- cursor -->
+  <text x="24" y="194" font-family="'Courier New',Courier,monospace" font-size="13" fill="#7dcfff">&gt; <tspan fill="#c0caf5" opacity="0.7">&#x2588;</tspan></text>
+</svg>

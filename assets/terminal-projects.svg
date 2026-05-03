@@ -1,0 +1,34 @@
+<svg width="650" height="362" viewBox="0 0 650 362" xmlns="http://www.w3.org/2000/svg">
+  <!-- Window background -->
+  <rect width="650" height="362" rx="12" fill="#1a1b27" stroke="#30363d" stroke-width="1"/>
+  <!-- Title bar -->
+  <rect width="650" height="38" rx="12" fill="#16213e"/>
+  <rect y="26" width="650" height="12" fill="#16213e"/>
+  <!-- Window dots -->
+  <circle cx="22" cy="19" r="6" fill="#f7768e"/>
+  <circle cx="42" cy="19" r="6" fill="#e0af68"/>
+  <circle cx="62" cy="19" r="6" fill="#9ece6a"/>
+  <!-- Title text -->
+  <text x="325" y="25" text-anchor="middle" font-family="'Courier New',Courier,monospace" font-size="12" fill="#565f89">bash &#x2014; mayuresh@ai:~/projects</text>
+
+  <!-- rag_aml_assistant -->
+  <text x="24" y="62" font-family="'Courier New',Courier,monospace" font-size="13" fill="#7dcfff">&gt; rag_aml_assistant</text>
+  <text x="24" y="84" font-family="'Courier New',Courier,monospace" font-size="13"><tspan fill="#565f89">status: </tspan><tspan fill="#9ece6a">deployed </tspan></text>
+  <circle cx="166" cy="79" r="5" fill="#9ece6a"/>
+
+  <!-- mcp_agent_system -->
+  <text x="24" y="128" font-family="'Courier New',Courier,monospace" font-size="13" fill="#7dcfff">&gt; mcp_agent_system</text>
+  <text x="24" y="150" font-family="'Courier New',Courier,monospace" font-size="13"><tspan fill="#565f89">status: </tspan><tspan fill="#e0af68">active &#x26A1;</tspan></text>
+
+  <!-- automl_framework -->
+  <text x="24" y="194" font-family="'Courier New',Courier,monospace" font-size="13" fill="#7dcfff">&gt; automl_framework</text>
+  <text x="24" y="216" font-family="'Courier New',Courier,monospace" font-size="13"><tspan fill="#565f89">status: </tspan><tspan fill="#7aa2f7">completed &#x2713;</tspan></text>
+
+  <!-- tech_stack -->
+  <text x="24" y="260" font-family="'Courier New',Courier,monospace" font-size="13" fill="#565f89">tech_stack:</text>
+  <text x="24" y="282" font-family="'Courier New',Courier,monospace" font-size="13" fill="#ff9e64">  python | fastapi | langchain | langgraph</text>
+  <text x="24" y="304" font-family="'Courier New',Courier,monospace" font-size="13" fill="#ff9e64">  openai | gemini | chromadb</text>
+
+  <!-- cursor -->
+  <text x="24" y="340" font-family="'Courier New',Courier,monospace" font-size="13" fill="#7dcfff">&gt; <tspan fill="#c0caf5" opacity="0.7">&#x2588;</tspan></text>
+</svg>

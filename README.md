@@ -19,39 +19,13 @@
 
 ---
 
-```bash
-> whoami
-Mayuresh Bairagi
+<p align="center">
+  <img src="./assets/terminal-main.svg" alt="terminal: whoami, focus, thinking, metrics">
+</p>
 
-> focus
-RAG | MCP | AI | FastAPI
-
-[thinking...]
-→ ingesting data
-→ retrieving context (RAG)
-→ reasoning with LLMs
-→ orchestrating agents (MCP)
-→ generating responses
-[done]
-
-accuracy.rag = 85%
-users.daily = 500+
-efficiency.mcp = +30%
-experience = 12+ months
-```
-
-```bash
-> rag_aml_assistant
-status: deployed 🟢
-
-> mcp_agent_system
-status: active ⚡
-
-> automl_framework
-status: completed ✅
-
-tech_stack: python | fastapi | langchain | langgraph | openai | gemini | chromadb
-```
+<p align="center">
+  <img src="./assets/terminal-projects.svg" alt="terminal: project statuses">
+</p>
 
 <p align="center">
   <img src="https://github-readme-stats.vercel.app/api?username=Mayuresh-Bairagi&show_icons=true&theme=tokyonight&hide_border=true&bg_color=0d1117">
@@ -65,27 +39,13 @@ tech_stack: python | fastapi | langchain | langgraph | openai | gemini | chromad
   <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=Mayuresh-Bairagi&theme=tokyonight&hide_border=true&bg_color=0d1117&layout=compact">
 </p>
 
-```bash
-> contact.email
-📧 mayureshbairagi304@gmail.com
+<p align="center">
+  <img src="./assets/terminal-contact.svg" alt="terminal: contact info">
+</p>
 
-> contact.linkedin
-🔗 linkedin.com/in/mayuresh-bairagi
-
-> contact.github
-🐙 github.com/Mayuresh-Bairagi
-
-> contact.x
-🐦 x.com/mayuresh_bairagi
-```
-
-```bash
-> system_status
-🟢 all systems operational
-🟢 mcp_agent: running
-🟢 rag_pipeline: active
-🟢 api_endpoints: healthy
-```
+<p align="center">
+  <img src="./assets/terminal-status.svg" alt="terminal: system status">
+</p>
 
 <p align="center">
   <img src="https://komarev.com/ghpvc/?username=Mayuresh-Bairagi&label=Profile%20Views&color=00F7FF&style=flat">
