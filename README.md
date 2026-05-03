@@ -1,45 +1,30 @@
+<!-- ░░░░░░░░░░░░ HERO ░░░░░░░░░░░░ -->
 <p align="center">
-  <img src="https://readme-typing-svg.herokuapp.com?size=28&duration=3000&color=00F7FF&center=true&vCenter=true&width=600&lines=🚀+booting+ai.system...;📦+loading+modules...;👨‍💻+mayuresh_bairagi+online">
+  <img src="./assets/hero.svg" alt="Mayuresh Bairagi — AI Systems Engineer" width="860">
 </p>
 
-<h1 align="center">
-  <img src="https://media.giphy.com/media/hvRJCLFzcasrR4ia7z/giphy.gif" width="30">
-  Mayuresh Bairagi
-</h1>
-
+<!-- ░░░░░░░░░░░░ ANIMATED TERMINAL ░░░░░░░░░░░░ -->
 <p align="center">
-  <b>AI Systems Engineer • RAG | MCP | GenAI</b><br><br>
-  <img src="https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white">
-  <img src="https://img.shields.io/badge/FastAPI-009688?style=for-the-badge&logo=fastapi&logoColor=white">
-  <img src="https://img.shields.io/badge/LangChain-1C3C3C?style=for-the-badge&logo=langchain&logoColor=white">
-  <img src="https://img.shields.io/badge/OpenAI-412991?style=for-the-badge&logo=openai&logoColor=white">
-  <img src="https://img.shields.io/badge/Gemini-8E75B2?style=for-the-badge&logo=googlebard&logoColor=white">
-  <img src="https://img.shields.io/badge/ChromaDB-FFD700?style=for-the-badge&logo=chromadb&logoColor=black">
+  <img src="./assets/terminal-master.svg" alt="terminal session" width="860">
 </p>
 
----
-
+<!-- ░░░░░░░░░░░░ STATS ROW ░░░░░░░░░░░░ -->
 <p align="center">
-  <img src="./assets/terminal-animated.svg" alt="animated terminal session">
+  <img src="https://github-readme-stats.vercel.app/api?username=Mayuresh-Bairagi&show_icons=true&theme=tokyonight&hide_border=true&bg_color=0d1117&title_color=00f7ff&icon_color=a855f7" height="160">
+  &nbsp;
+  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=Mayuresh-Bairagi&theme=tokyonight&hide_border=true&bg_color=0d1117&title_color=00f7ff&layout=compact" height="160">
 </p>
 
+<!-- ░░░░░░░░░░░░ STREAK ░░░░░░░░░░░░ -->
 <p align="center">
-  <img src="https://github-readme-stats.vercel.app/api?username=Mayuresh-Bairagi&show_icons=true&theme=tokyonight&hide_border=true&bg_color=0d1117">
+  <img src="https://github-readme-streak-stats.herokuapp.com/?user=Mayuresh-Bairagi&theme=tokyonight&hide_border=true&background=0d1117&ring=00f7ff&fire=a855f7&currStreakLabel=00f7ff">
 </p>
 
+<!-- ░░░░░░░░░░░░ FOOTER ░░░░░░░░░░░░ -->
 <p align="center">
-  <img src="https://github-readme-streak-stats.herokuapp.com/?user=Mayuresh-Bairagi&theme=tokyonight&hide_border=true&background=0d1117">
+  <img src="https://komarev.com/ghpvc/?username=Mayuresh-Bairagi&label=Profile+Views&color=00F7FF&style=flat-square">
 </p>
 
 <p align="center">
-  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=Mayuresh-Bairagi&theme=tokyonight&hide_border=true&bg_color=0d1117&layout=compact">
-</p>
-
-<p align="center">
-  <img src="https://komarev.com/ghpvc/?username=Mayuresh-Bairagi&label=Profile%20Views&color=00F7FF&style=flat">
-</p>
-
-<p align="center">
-  <i>⚡ "Building intelligent systems, one prompt at a time."</i><br>
-  <i>🔧 "RAG + MCP = Smarter AI Agents"</i>
+  <img src="https://readme-typing-svg.herokuapp.com?font=Courier+New&size=14&duration=4000&pause=1000&color=565F89&center=true&vCenter=true&width=600&lines=⚡+Building+intelligent+systems,+one+prompt+at+a+time.;🔧+RAG+%2B+MCP+%3D+Smarter+AI+Agents;🚀+Always+shipping,+never+stopping.">
 </p>
