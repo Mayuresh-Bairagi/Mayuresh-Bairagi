@@ -1,0 +1,333 @@
+<svg width="860" height="430" viewBox="0 0 860 430" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <style>
+      @keyframes appear  { from{opacity:0} to{opacity:1} }
+      @keyframes bgl     { 0%,100%{opacity:.55} 50%{opacity:1} }
+      @keyframes bscale  { from{transform:scaleX(0)} to{transform:scaleX(1)} }
+      @keyframes blk     { 0%,49%{opacity:1} 50%,100%{opacity:0} }
+
+      .a   { opacity:0; animation:appear .35s ease forwards; }
+      .bdr { animation:bgl 4s ease-in-out infinite; }
+      .cur { opacity:0; animation:blk .85s step-end 7.5s infinite; }
+
+      /* ── LEFT COL skill bars (track x=170, bar h=10) ── */
+      .sk-py { transform-origin:170px 157px; animation:bscale 1.1s ease-out 2.4s both; }
+      .sk-fa { transform-origin:170px 175px; animation:bscale 1.1s ease-out 2.7s both; }
+      .sk-lc { transform-origin:170px 193px; animation:bscale 1.1s ease-out 3.0s both; }
+      .sk-rg { transform-origin:170px 211px; animation:bscale 1.1s ease-out 3.3s both; }
+      .sk-mc { transform-origin:170px 229px; animation:bscale 1.1s ease-out 3.6s both; }
+      .sk-cd { transform-origin:170px 247px; animation:bscale 1.1s ease-out 3.9s both; }
+
+      /* ── RIGHT COL metric bars (track x=615, bar h=10) ── */
+      .mt-ar { transform-origin:615px 177px; animation:bscale 1.0s ease-out 2.4s both; }
+      .mt-ud { transform-origin:615px 195px; animation:bscale 1.0s ease-out 2.7s both; }
+      .mt-em { transform-origin:615px 213px; animation:bscale 1.0s ease-out 3.0s both; }
+      .mt-ex { transform-origin:615px 231px; animation:bscale 1.0s ease-out 3.3s both; }
+    </style>
+
+    <filter id="gs" x="-60%" y="-60%" width="220%" height="220%">
+      <feGaussianBlur stdDeviation="4" result="b"/>
+      <feMerge><feMergeNode in="b"/><feMergeNode in="SourceGraphic"/></feMerge>
+    </filter>
+    <filter id="gbdr" x="-15%" y="-15%" width="130%" height="130%">
+      <feGaussianBlur stdDeviation="7"/>
+    </filter>
+  </defs>
+
+  <!-- NEON GLOW BEHIND BORDER -->
+  <rect class="bdr" x="1" y="1" width="858" height="428" rx="14"
+        fill="none" stroke="#00f7ff" stroke-width="2.5"
+        filter="url(#gbdr)" opacity="0.6"/>
+
+  <!-- WINDOW -->
+  <rect width="860" height="430" rx="12" fill="#0d1117" stroke="#00f7ff" stroke-width="1" opacity="0.9"/>
+
+  <!-- TITLE BAR -->
+  <rect width="860" height="38" rx="12" fill="#111827"/>
+  <rect y="26" width="860" height="12" fill="#111827"/>
+  <circle cx="22" cy="19" r="6" fill="#f7768e"/>
+  <circle cx="42" cy="19" r="6" fill="#e0af68"/>
+  <circle cx="62" cy="19" r="6" fill="#9ece6a"/>
+  <text x="430" y="25" text-anchor="middle"
+        font-family="'Courier New',Courier,monospace" font-size="12" fill="#565f89">
+    bash — mayuresh@ai:~ ✦
+  </text>
+
+  <!-- ══════════════════════════════════════════
+       VERTICAL COLUMN DIVIDER
+  ══════════════════════════════════════════ -->
+  <line class="a" style="animation-delay:.3s" x1="441" y1="46" x2="441" y2="416"
+        stroke="#1e3f6a" stroke-width="0.8"/>
+  <!-- neon dot accents on divider -->
+  <circle class="a" style="animation-delay:.5s" cx="441" cy="46"  r="2" fill="#00f7ff" opacity="0.5"/>
+  <circle class="a" style="animation-delay:.5s" cx="441" cy="416" r="2" fill="#00f7ff" opacity="0.5"/>
+
+  <!-- ═══════════════════════════════════════
+       LEFT COLUMN  (x: 20 → 432)
+  ═══════════════════════════════════════ -->
+
+  <!-- ─── WHOAMI ─── -->
+  <text class="a" style="animation-delay:.5s" x="22" y="63"
+        font-family="'Courier New',Courier,monospace" font-size="12" fill="#7dcfff">&gt; whoami</text>
+
+  <text class="a" style="animation-delay:.9s" x="22" y="80"
+        font-family="'Courier New',Courier,monospace" font-size="12">
+    <tspan fill="#9ece6a" filter="url(#gs)">●</tspan>
+    <tspan fill="#ffffff">  Mayuresh Bairagi</tspan>
+  </text>
+
+  <text class="a" style="animation-delay:1.2s" x="22" y="96"
+        font-family="'Courier New',Courier,monospace" font-size="11" fill="#a9b1d6">
+    &#160;&#160; AI Systems Engineer · RAG | MCP | GenAI
+  </text>
+
+  <!-- separator left -->
+  <line class="a" style="animation-delay:1.5s" x1="22" y1="108" x2="432" y2="108"
+        stroke="#1e3f6a" stroke-width="0.6"/>
+
+  <!-- ─── SKILLS ─── -->
+  <text class="a" style="animation-delay:1.7s" x="22" y="126"
+        font-family="'Courier New',Courier,monospace" font-size="12" fill="#7dcfff">&gt; cat skills.json</text>
+
+  <text class="a" style="animation-delay:2.0s" x="22" y="143"
+        font-family="'Courier New',Courier,monospace" font-size="12" fill="#565f89">{</text>
+
+  <!-- python  95% → 223/235 -->
+  <text class="a" style="animation-delay:2.4s" x="36" y="163"
+        font-family="'Courier New',Courier,monospace" font-size="11" fill="#7dcfff">"python"<tspan fill="#565f89">:</tspan></text>
+  <rect class="a" style="animation-delay:2.4s" x="170" y="152" width="235" height="10" rx="3" fill="#1a2340"/>
+  <rect class="sk-py"                           x="170" y="152" width="223" height="10" rx="3" fill="#00f7ff" opacity="0.9"/>
+  <text class="a" style="animation-delay:3.6s" x="410" y="163"
+        font-family="'Courier New',Courier,monospace" font-size="11" fill="#9ece6a">95%</text>
+
+  <!-- fastapi  88% → 207/235 -->
+  <text class="a" style="animation-delay:2.7s" x="36" y="181"
+        font-family="'Courier New',Courier,monospace" font-size="11" fill="#7dcfff">"fastapi"<tspan fill="#565f89">:</tspan></text>
+  <rect class="a" style="animation-delay:2.7s" x="170" y="170" width="235" height="10" rx="3" fill="#1a2340"/>
+  <rect class="sk-fa"                           x="170" y="170" width="207" height="10" rx="3" fill="#7aa2f7" opacity="0.9"/>
+  <text class="a" style="animation-delay:3.9s" x="410" y="181"
+        font-family="'Courier New',Courier,monospace" font-size="11" fill="#9ece6a">88%</text>
+
+  <!-- langchain  85% → 200/235 -->
+  <text class="a" style="animation-delay:3.0s" x="36" y="199"
+        font-family="'Courier New',Courier,monospace" font-size="11" fill="#7dcfff">"langchain"<tspan fill="#565f89">:</tspan></text>
+  <rect class="a" style="animation-delay:3.0s" x="170" y="188" width="235" height="10" rx="3" fill="#1a2340"/>
+  <rect class="sk-lc"                           x="170" y="188" width="200" height="10" rx="3" fill="#a855f7" opacity="0.9"/>
+  <text class="a" style="animation-delay:4.2s" x="410" y="199"
+        font-family="'Courier New',Courier,monospace" font-size="11" fill="#9ece6a">85%</text>
+
+  <!-- rag  90% → 212/235 -->
+  <text class="a" style="animation-delay:3.3s" x="36" y="217"
+        font-family="'Courier New',Courier,monospace" font-size="11" fill="#7dcfff">"rag"<tspan fill="#565f89">:</tspan></text>
+  <rect class="a" style="animation-delay:3.3s" x="170" y="206" width="235" height="10" rx="3" fill="#1a2340"/>
+  <rect class="sk-rg"                           x="170" y="206" width="212" height="10" rx="3" fill="#f472b6" opacity="0.9"/>
+  <text class="a" style="animation-delay:4.5s" x="410" y="217"
+        font-family="'Courier New',Courier,monospace" font-size="11" fill="#9ece6a">90%</text>
+
+  <!-- mcp  78% → 183/235 -->
+  <text class="a" style="animation-delay:3.6s" x="36" y="235"
+        font-family="'Courier New',Courier,monospace" font-size="11" fill="#7dcfff">"mcp"<tspan fill="#565f89">:</tspan></text>
+  <rect class="a" style="animation-delay:3.6s" x="170" y="224" width="235" height="10" rx="3" fill="#1a2340"/>
+  <rect class="sk-mc"                           x="170" y="224" width="183" height="10" rx="3" fill="#e0af68" opacity="0.9"/>
+  <text class="a" style="animation-delay:4.8s" x="410" y="235"
+        font-family="'Courier New',Courier,monospace" font-size="11" fill="#9ece6a">78%</text>
+
+  <!-- chromadb  82% → 193/235 -->
+  <text class="a" style="animation-delay:3.9s" x="36" y="253"
+        font-family="'Courier New',Courier,monospace" font-size="11" fill="#7dcfff">"chromadb"<tspan fill="#565f89">:</tspan></text>
+  <rect class="a" style="animation-delay:3.9s" x="170" y="242" width="235" height="10" rx="3" fill="#1a2340"/>
+  <rect class="sk-cd"                           x="170" y="242" width="193" height="10" rx="3" fill="#10b981" opacity="0.9"/>
+  <text class="a" style="animation-delay:5.1s" x="410" y="253"
+        font-family="'Courier New',Courier,monospace" font-size="11" fill="#9ece6a">82%</text>
+
+  <text class="a" style="animation-delay:4.2s" x="22" y="269"
+        font-family="'Courier New',Courier,monospace" font-size="12" fill="#565f89">}</text>
+
+  <!-- separator left -->
+  <line class="a" style="animation-delay:4.5s" x1="22" y1="281" x2="432" y2="281"
+        stroke="#1e3f6a" stroke-width="0.6"/>
+
+  <!-- ─── STATUS ─── -->
+  <text class="a" style="animation-delay:4.8s" x="22" y="300"
+        font-family="'Courier New',Courier,monospace" font-size="12" fill="#7dcfff">&gt; systemctl status mayuresh.ai</text>
+
+  <text class="a" style="animation-delay:5.2s" x="22" y="317"
+        font-family="'Courier New',Courier,monospace" font-size="12">
+    <tspan fill="#9ece6a" filter="url(#gs)">●</tspan>
+    <tspan fill="#c0caf5"> Active: </tspan><tspan fill="#9ece6a">running (online) ✓</tspan>
+  </text>
+
+  <text class="a" style="animation-delay:5.5s" x="36" y="333"
+        font-family="'Courier New',Courier,monospace" font-size="11">
+    <tspan fill="#565f89">MCP: </tspan><tspan fill="#9ece6a">up  </tspan>
+    <tspan fill="#565f89">│ RAG: </tspan><tspan fill="#9ece6a">up  </tspan>
+    <tspan fill="#565f89">│ API: </tspan><tspan fill="#9ece6a">up  </tspan>
+    <tspan fill="#565f89">│ DB: </tspan><tspan fill="#9ece6a">ok</tspan>
+  </text>
+
+  <!-- separator left -->
+  <line class="a" style="animation-delay:5.8s" x1="22" y1="345" x2="432" y2="345"
+        stroke="#1e3f6a" stroke-width="0.6"/>
+
+  <!-- ─── CONTACT ─── -->
+  <text class="a" style="animation-delay:6.0s" x="22" y="363"
+        font-family="'Courier New',Courier,monospace" font-size="12" fill="#7dcfff">&gt; cat contact.info</text>
+
+  <text class="a" style="animation-delay:6.3s" x="22" y="380"
+        font-family="'Courier New',Courier,monospace" font-size="11">
+    <tspan fill="#e0af68">✉</tspan>
+    <tspan fill="#c0caf5">  mayureshbairagi304@gmail.com</tspan>
+  </text>
+
+  <text class="a" style="animation-delay:6.6s" x="22" y="397"
+        font-family="'Courier New',Courier,monospace" font-size="11">
+    <tspan fill="#7aa2f7">■</tspan>
+    <tspan fill="#c0caf5">  linkedin.com/in/mayuresh-bairagi</tspan>
+  </text>
+
+  <text class="a" style="animation-delay:6.9s" x="22" y="414"
+        font-family="'Courier New',Courier,monospace" font-size="11">
+    <tspan fill="#9ece6a">■</tspan>
+    <tspan fill="#c0caf5">  github.com/Mayuresh-Bairagi</tspan>
+  </text>
+
+  <!-- ═══════════════════════════════════════
+       RIGHT COLUMN  (x: 452 → 840)
+  ═══════════════════════════════════════ -->
+
+  <!-- ─── PROJECTS ─── -->
+  <text class="a" style="animation-delay:.5s" x="452" y="63"
+        font-family="'Courier New',Courier,monospace" font-size="12" fill="#7dcfff">&gt; ls -la projects/</text>
+
+  <text class="a" style="animation-delay:.9s" x="452" y="80"
+        font-family="'Courier New',Courier,monospace" font-size="11">
+    <tspan fill="#9ece6a">●</tspan>
+    <tspan fill="#565f89"> [dep]  </tspan>
+    <tspan fill="#c0caf5">rag_aml_assistant</tspan>
+  </text>
+  <text class="a" style="animation-delay:.9s" x="462" y="93"
+        font-family="'Courier New',Courier,monospace" font-size="10" fill="#565f89">RAG pipeline · AML compliance</text>
+
+  <text class="a" style="animation-delay:1.2s" x="452" y="110"
+        font-family="'Courier New',Courier,monospace" font-size="11">
+    <tspan fill="#e0af68">⚡</tspan>
+    <tspan fill="#565f89"> [act]  </tspan>
+    <tspan fill="#c0caf5">mcp_agent_system</tspan>
+  </text>
+  <text class="a" style="animation-delay:1.2s" x="462" y="123"
+        font-family="'Courier New',Courier,monospace" font-size="10" fill="#565f89">Multi-agent MCP orchestration</text>
+
+  <text class="a" style="animation-delay:1.5s" x="452" y="140"
+        font-family="'Courier New',Courier,monospace" font-size="11">
+    <tspan fill="#7aa2f7">✓</tspan>
+    <tspan fill="#565f89"> [done] </tspan>
+    <tspan fill="#c0caf5">automl_framework</tspan>
+  </text>
+  <text class="a" style="animation-delay:1.5s" x="462" y="153"
+        font-family="'Courier New',Courier,monospace" font-size="10" fill="#565f89">AutoML with dynamic pipelines</text>
+
+  <text class="a" style="animation-delay:1.8s" x="452" y="170"
+        font-family="'Courier New',Courier,monospace" font-size="11">
+    <tspan fill="#e0af68">⚡</tspan>
+    <tspan fill="#565f89"> [act]  </tspan>
+    <tspan fill="#c0caf5">genai_chatbot</tspan>
+  </text>
+  <text class="a" style="animation-delay:1.8s" x="462" y="183"
+        font-family="'Courier New',Courier,monospace" font-size="10" fill="#565f89">Gemini-powered conversational AI</text>
+
+  <!-- separator right -->
+  <line class="a" style="animation-delay:2.0s" x1="452" y1="195" x2="840" y2="195"
+        stroke="#1e3f6a" stroke-width="0.6"/>
+
+  <!-- ─── METRICS ─── -->
+  <text class="a" style="animation-delay:2.1s" x="452" y="213"
+        font-family="'Courier New',Courier,monospace" font-size="12" fill="#7dcfff">&gt; ./metrics.sh</text>
+
+  <!-- accuracy.rag  85% → 166/195 -->
+  <text class="a" style="animation-delay:2.4s" x="452" y="229"
+        font-family="'Courier New',Courier,monospace" font-size="11" fill="#c0caf5">accuracy.rag</text>
+  <rect class="a" style="animation-delay:2.4s" x="615" y="218" width="195" height="10" rx="3" fill="#1a2340"/>
+  <rect class="mt-ar"                           x="615" y="218" width="166" height="10" rx="3" fill="#00f7ff" opacity="0.85"/>
+  <text class="a" style="animation-delay:3.5s" x="816" y="229"
+        font-family="'Courier New',Courier,monospace" font-size="11" fill="#9ece6a">85%</text>
+
+  <!-- users.daily  500+ → 137/195 (70%) -->
+  <text class="a" style="animation-delay:2.7s" x="452" y="247"
+        font-family="'Courier New',Courier,monospace" font-size="11" fill="#c0caf5">users.daily</text>
+  <rect class="a" style="animation-delay:2.7s" x="615" y="236" width="195" height="10" rx="3" fill="#1a2340"/>
+  <rect class="mt-ud"                           x="615" y="236" width="137" height="10" rx="3" fill="#7aa2f7" opacity="0.85"/>
+  <text class="a" style="animation-delay:3.8s" x="816" y="247"
+        font-family="'Courier New',Courier,monospace" font-size="11" fill="#9ece6a">500+</text>
+
+  <!-- efficiency.mcp  +30% → 98/195 (50%) -->
+  <text class="a" style="animation-delay:3.0s" x="452" y="265"
+        font-family="'Courier New',Courier,monospace" font-size="11" fill="#c0caf5">efficiency.mcp</text>
+  <rect class="a" style="animation-delay:3.0s" x="615" y="254" width="195" height="10" rx="3" fill="#1a2340"/>
+  <rect class="mt-em"                           x="615" y="254" width="98"  height="10" rx="3" fill="#a855f7" opacity="0.85"/>
+  <text class="a" style="animation-delay:4.1s" x="816" y="265"
+        font-family="'Courier New',Courier,monospace" font-size="11" fill="#9ece6a">+30%</text>
+
+  <!-- experience  12+mo → 107/195 (55%) -->
+  <text class="a" style="animation-delay:3.3s" x="452" y="283"
+        font-family="'Courier New',Courier,monospace" font-size="11" fill="#c0caf5">experience</text>
+  <rect class="a" style="animation-delay:3.3s" x="615" y="272" width="195" height="10" rx="3" fill="#1a2340"/>
+  <rect class="mt-ex"                           x="615" y="272" width="107" height="10" rx="3" fill="#f472b6" opacity="0.85"/>
+  <text class="a" style="animation-delay:4.4s" x="816" y="283"
+        font-family="'Courier New',Courier,monospace" font-size="11" fill="#9ece6a">12+mo</text>
+
+  <!-- separator right -->
+  <line class="a" style="animation-delay:4.0s" x1="452" y1="296" x2="840" y2="296"
+        stroke="#1e3f6a" stroke-width="0.6"/>
+
+  <!-- ─── STACK ─── -->
+  <text class="a" style="animation-delay:4.3s" x="452" y="315"
+        font-family="'Courier New',Courier,monospace" font-size="12" fill="#7dcfff">&gt; echo $STACK</text>
+
+  <text class="a" style="animation-delay:4.6s" x="452" y="333"
+        font-family="'Courier New',Courier,monospace" font-size="11">
+    <tspan fill="#9ece6a">Python</tspan>
+    <tspan fill="#565f89"> · </tspan>
+    <tspan fill="#7aa2f7">FastAPI</tspan>
+    <tspan fill="#565f89"> · </tspan>
+    <tspan fill="#a855f7">LangChain</tspan>
+    <tspan fill="#565f89"> · </tspan>
+    <tspan fill="#f472b6">OpenAI</tspan>
+    <tspan fill="#565f89"> · </tspan>
+    <tspan fill="#e0af68">Gemini</tspan>
+  </text>
+
+  <text class="a" style="animation-delay:4.9s" x="452" y="350"
+        font-family="'Courier New',Courier,monospace" font-size="11">
+    <tspan fill="#10b981">ChromaDB</tspan>
+    <tspan fill="#565f89"> · </tspan>
+    <tspan fill="#00f7ff">Docker</tspan>
+    <tspan fill="#565f89"> · </tspan>
+    <tspan fill="#7dcfff">PostgreSQL</tspan>
+    <tspan fill="#565f89"> · </tspan>
+    <tspan fill="#c0caf5">Redis</tspan>
+    <tspan fill="#565f89"> · </tspan>
+    <tspan fill="#9ece6a">Git</tspan>
+  </text>
+
+  <!-- separator right -->
+  <line class="a" style="animation-delay:5.2s" x1="452" y1="362" x2="840" y2="362"
+        stroke="#1e3f6a" stroke-width="0.6"/>
+
+  <!-- ─── QUOTE ─── -->
+  <text class="a" style="animation-delay:5.5s" x="452" y="381"
+        font-family="'Courier New',Courier,monospace" font-size="11">
+    <tspan fill="#565f89">//</tspan>
+    <tspan fill="#c0caf5"> "Building intelligent systems,</tspan>
+  </text>
+  <text class="a" style="animation-delay:5.8s" x="452" y="397"
+        font-family="'Courier New',Courier,monospace" font-size="11">
+    <tspan fill="#565f89">//</tspan>
+    <tspan fill="#c0caf5">  one prompt at a time."</tspan>
+  </text>
+
+  <!-- ── CURSOR (bottom-right) ── -->
+  <text class="a" style="animation-delay:7.0s" x="452" y="416"
+        font-family="'Courier New',Courier,monospace" font-size="12" fill="#7dcfff">&gt; </text>
+  <text class="cur" x="470" y="416"
+        font-family="'Courier New',Courier,monospace" font-size="12" fill="#00f7ff">&#x2588;</text>
+</svg>
